@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Outfit:wght@400;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution{
+    margin-top: 200px;
+}
+
+body{
+    background: hsl(212, 45%, 89%);
+    font-family: Outfit,sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    height: 500px;
+    width: 300px;
+    margin-top: 200px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.container img{
+    display: flex;
+    flex-flow: column;
+    height: 280px;
+    width: 300px;
+    border-radius:10px
+}
+
+.text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        margin: 5px 5px 5px 5px;
+    }
+}
